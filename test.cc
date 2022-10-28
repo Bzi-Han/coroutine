@@ -119,7 +119,7 @@ int main()
         scheduler::add(coro02);
         scheduler::run();
 
-        std::cout << "press any key to stop running...";
+        std::cout << "press any key to stop running..." << std::endl;
         getchar();
 
         scheduler::stop();
